@@ -19,39 +19,49 @@ body {
 }
 .hero p{
     
-    font-family: var("--default-font");
+    font-family: var(--default-font);
     font-weight: bold;
     font-size: 36px;
-    color: var("--primary-color");
+    color: var(--primary-color);
 }
  h1 {
-    font-family: var("--second-font");
+    font-family: var(--second-font);
      font-size: 96px;
      line-height: 1.2;
     font-weight:bold;
        
 }
+.desc{
+
+    font-size: 64px;
+}
+    
 
 h2 {
-    font-family:var("--second-font");
+    font-family:var(--second-font);
     font-size: 24px;
     font-weight: normal;
-    color: var("--primary-color");
+    color: var(--primary-color);
     line-height: 2;
 }
-.hero button{
-    background: #6C63FF;
-    color: #ffffff;
-    font-family:var("--default-font");
-    font-weight: medium;
-     font-size: 18px;
-     padding: 18px 30px;
-     border: none;
-     border-radius: 4px;
-}
-.hero button:hover{
-    cursor: pointer;
-    background: var("--primary-color");
-    color: black;
 
+
+
+.btn-branding {
+            background: var(--secondary-color);
+            border-radius: 4px;
+            color: white;
+            font-size: 18px;
+            line-height: 27px;
+            padding: 15px 30px;
+}
+.container p{
+    font-family: var(--default-font);
+    font-weight: 400;
+    font-size: 16px;
+    color: var("--primary-color");
+}
+.btn-branding-outline{
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
 }
